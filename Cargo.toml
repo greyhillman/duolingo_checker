@@ -1,0 +1,19 @@
+[package]
+name = "duolingo_checker"
+version = "0.1.0"
+authors = ["Grey Hill <infogreytech@gmail.com>"]
+
+[dependencies]
+clap = {version = "*", features = ["yaml"]}
+rusqlite = "0.12.0"
+nom = "^3.2"
+
+[lib]
+name = "duolingo_checker"
+path = "src/lib.rs"
+
+[[bin]]
+name = "duolingo_checker"
+path = "src/main.rs"
+doc = false
+
