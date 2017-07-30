@@ -1,0 +1,15 @@
+name: duolingo_checker
+version: 0.1.0
+author: Grey Hill <infogreytech@gmail.com>
+about: Checks that Duolingo words are in Anki
+args:
+    - anki_db:
+        value_name: ANKI_DB
+        help: The path to the Anki DB
+        required: true
+        takes_value: true
+    - duolingo_file:
+        value_name: DUOLINGO_FILE
+        help: The path to the Duolingo file
+        takes_value: true
+
