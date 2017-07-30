@@ -1,5 +1,7 @@
 # duolingo_checker
 
+[![Build Status](https://travis-ci.org/greyhillman/duolingo_checker.svg?branch=master)](https://travis-ci.org/greyhillman/duolingo_checker)
+
 A program that checks that your Duolingo words are in Anki.
 
 ## Usage
